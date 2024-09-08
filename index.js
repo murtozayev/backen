@@ -10,4 +10,8 @@ app.get("/", (req, res) => {
     res.json({ name: "Jahongir" })
 })
 
+app.post("/post", (req, res) => {
+    res.json("Everything is correct")
+})
+
 module.exports = app
