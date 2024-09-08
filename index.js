@@ -10,4 +10,4 @@ app.get("/", (req, res) => {
     res.json({ name: "Jahongir" })
 })
 
-app.listen(2222)
+module.exports = app
